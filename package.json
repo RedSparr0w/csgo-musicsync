@@ -1,0 +1,12 @@
+{
+  "name":"csgo-musicsync",
+  "version":"2.0.0",
+  "dependencies":{
+    "electron":"^1.4.13",
+    "id3-parser":"^1.1.1"
+  },
+  "scripts":{
+    "start":"./node_modules/.bin/electron ."
+  },
+  "main":"main.js"
+}
