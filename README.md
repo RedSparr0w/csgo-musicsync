@@ -7,8 +7,8 @@ Musicsync is a browser-based music player that will connect to CSGO and only pla
 - Run `npm install` in cmd prompt
 
 # Running
-- Run `npm start` in cmd prompt to launch program
-- Build your playlist by adding files with the "+"-Button in the top left corner
+- Run `npm test` in cmd prompt to launch program
+- Build your playlist by dropping files into the program
 - Start CSGO
 
 # Usage

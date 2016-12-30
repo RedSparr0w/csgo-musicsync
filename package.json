@@ -6,7 +6,9 @@
     "id3-parser":"^1.1.1"
   },
   "scripts":{
-    "start":"./node_modules/.bin/electron ."
+    "preinstall":"npm install electron-packager -g",
+    "test":"./node_modules/.bin/electron .",
+    "start":"electron-packager ./ \"CS:GO Music Player\" --platform=win32 --arch=ia32 --icon=./logo.ico --overwrite"
   },
   "main":"main.js"
 }
